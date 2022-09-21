@@ -1,5 +1,12 @@
-const http = require('node:http')
+// API vs SSR
+// Api - to server data in JSON
+// Server Side Rendering - sending template
 
-const server = http.createServer((req,res) => {
-    console.log('User hit the server')
-}).listen(5002)
+const express = require('express')
+const app = express()
+
+app.listen(5001, () => {
+    console.log('Server hit!')
+})
+
+app.get('')
