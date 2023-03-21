@@ -27,6 +27,15 @@ app.get('/api/people', (req, res) => {
     .catch(err => res.status(500).json())
 })
 
+app.get('/api/people/:personId', (req, res) => {
+    const { peronsId } = req.params
+    const { name } = req.query
+    logger.info(`${name}`)
+    usersService.getUsersById(Number(peronsId))
+    .then(data => res.status(200).json(data))
+    .catch(err => res.status(500).json())
+})
+
 app.get('/api/products', (req, res) => {
     logger.info('Products!')
     res.status(200).json(products)

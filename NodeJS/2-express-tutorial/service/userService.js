@@ -1,9 +1,9 @@
 const { people } = require('../data')
 
 const getAllUsers = () => {
-    for (let i = 0; i < 100000; i++) {
-        console.log(`${i}`)
-    }
+    // for (let i = 0; i < 100000; i++) {
+    //     console.log(`${i}`)
+    // }
     return Promise.resolve(people)
 }
 
