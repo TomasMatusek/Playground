@@ -19,6 +19,7 @@ public class UserService implements IUserService {
         users.add(new User(1, "John", "john@gmail.com"));
         users.add(new User(2, "Mary", "mary@gmail.com"));
         users.add(new User(3, "Peter", "peter@gmail.com"));
+        users.add(new User(5, "Thomas", "thomas@gmail.com"));
         return users;
     }
 
