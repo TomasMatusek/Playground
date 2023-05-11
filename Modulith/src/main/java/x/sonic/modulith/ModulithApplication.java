@@ -2,9 +2,11 @@ package x.sonic.modulith;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import x.sonic.modulith.product.internal.Product;
+import org.springframework.scheduling.annotation.EnableAsync;
 import x.sonic.modulith.product.ProductService;
+import x.sonic.modulith.product.internal.Product;
 
+@EnableAsync
 @SpringBootApplication
 public class ModulithApplication {
 
