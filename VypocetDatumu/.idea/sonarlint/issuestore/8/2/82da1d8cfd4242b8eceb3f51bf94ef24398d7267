@@ -1,0 +1,14 @@
+
+„
+java:S1192"gDefine a constant instead of duplicating this literal "======================================" 3 times.(Îªêã8¦ÑÁ“ş0
+]
+java:S1854"@Remove this useless assignment to local variable "rodicakFixny".( ×°²8ñÅ»“ş0
+N
+java:S1481"1Remove this unused "rodicakFixny" local variable.( ×°²8ñÅ»“ş0
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Îªêã
+N	java:S106"9Replace this use of System.out or System.err by a logger.(õ–è
+M	java:S106"9Replace this use of System.out or System.err by a logger.(§«·
+N	java:S106"9Replace this use of System.out or System.err by a logger.(„°ğ¹
+U	java:S106"9Replace this use of System.out or System.err by a logger.(Îªêã8Õ‚º“ş0
+U	java:S106""9Replace this use of System.out or System.err by a logger.(ÆÀûı8Òº“ş0
+U	java:S106&"9Replace this use of System.out or System.err by a logger.(Îªêã8¶ÑÁ“ş0

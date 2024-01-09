@@ -1,0 +1,3 @@
+public class <%= EntityClass %>Response {
+    private <%= EntityClass %> <%= EntityClass %>s;
+}

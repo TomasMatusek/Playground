@@ -1,0 +1,14 @@
+
+R
+java:S1854"<Remove this useless assignment to local variable "variant1".(âìÑ•
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ººŞ·üÿÿÿÿ
+C
+java:S1481"-Remove this unused "variant1" local variable.(âìÑ•
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Ëâûê
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ñ”úç
+S	java:S106"9Replace this use of System.out or System.err by a logger.(í¤Ôğıÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(¿ıú¹úÿÿÿÿ
+K
+java:S1128"0Remove this unused import 'java.time.LocalTime'.(à®øÃùÿÿÿÿ
+A
+java:S1128"+Remove this unused import 'java.util.Date'.(¸…¼ü
